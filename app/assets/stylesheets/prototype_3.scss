@@ -1,0 +1,57 @@
+.prototype_3 {
+  display: flex;
+  margin: auto;
+
+  .frame {
+    position: relative;
+    width: 1080px;
+    max-width: 1080px;
+    min-width: 1080px;
+    height: 1920px;
+    margin: auto;
+    background: black;
+    overflow: hidden;
+  }
+
+  .circle {
+    position: absolute;
+    // border-radius: 50%;
+    background-size: cover;
+
+    &.arrow {
+      background-image: image-url('arrow.png');
+    }
+
+    &.heart {
+      background-image: image-url('heart.png');
+    }
+
+    &.angle {
+      background-image: image-url('angle.png');
+    }
+
+    &.cloud {
+      background-image: image-url('cloud.png');
+    }
+
+    &.eye {
+      background-image: image-url('eye.png');
+    }
+
+    &.circle-black {
+      background-image: image-url('circle-black.png');
+    }
+
+    &.circle-white {
+      background-image: image-url('circle-white.png');
+    }
+
+    &.large-circle-black {
+      background-image: image-url('large-circle-black.png');
+    }
+
+    &.large-circle-white {
+      background-image: image-url('large-circle-white.png');
+    }
+  }
+}
